@@ -1,0 +1,177 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.todo-list {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #000000;
+  border: 1px solid #878181;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: #fff;
+}
+span{
+  color: #ffff;
+}
+
+.todo-list h1 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.todo-list form {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-list input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #353535;
+  color: #ffffff;
+  place-content: #fafafa;
+}
+.todo-list input[type="text"]::placeholder{
+  color: #fff;
+  opacity: 2px;
+}
+
+.todo-list input[type="time"] {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #838181;
+  color: #333;
+  margin-left: 10px;
+}
+
+.todo-list button[type="submit"] {
+  background-color: #0073ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.todo-list input[type="checkbox"] {
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.todo-list span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.todo-list button[type="button"] {
+  background-color: #00ff1a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.todo-list .completed {
+  text-decoration: line-through;
+}
+
+.todo-list .completed span {
+  color: #44d91f;
+}
+
+.todo-list li:hover {
+  background-color: #7b7979;
+}
+
+.todo-list li:hover .completed {
+  background-color: #f2f2f2;
+}
+
+.todo-list li button[type="button"]:hover {
+  background-color: #cc0000;
+}
+
+#But {
+  margin-left: 15px;
+  background-color: #a3a3a3;
+}
+
+#But:hover {
+  background-color: #cc0000;
+}
+
+#click:hover {
+  background-color: #00ff08;
+}
+
+.todo-list input[type="time"]::-webkit-input-placeholder {
+  color: #999;
+}
+
+.todo-list input[type="time"]:-moz-placeholder {
+  color: #999;
+}
+
+.todo-list input[type="time"]::-ms-input-placeholder {
+  color: #999;
+}
+
+.todo-list .time-input-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.todo-list .task-text {
+  font-size: 18px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.todo-list .task-time {
+  font-size: 16px;
+  color: #666;
+  margin-left: 10px;
+}
+
+.todo-list .task-delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
